@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link rel="stylesheet" href="/27_Toast_Notifications/style.css" />
+    <title>Toast Notifications</title>
+  </head>
+  <body>
+    <h1>Create your own toast</h1>
+    <div class="container">
+      <h3>Select the Toast type</h3>
+      <div class="btn-wrapper">
+        <button class="btn toast-success btn-selected" data-type="toast-type">Success</button>
+        <button class="btn toast-info" data-type="toast-type">Info</button>
+        <button class="btn toast-warning" data-type="toast-type">Warning</button>
+        <button class="btn toast-danger" data-type="toast-type">Danger</button>
+      </div>
+
+      <h3>Select the Toast position</h3>
+      <div class="btn-wrapper">
+        <button class="btn btn-selected" data-type="toast-position" >Top and Left</button>
+        <button class="btn" data-type="toast-position" >Top and Right</button>
+        <button class="btn" data-type="toast-position" >Bottom and Left</button>
+        <button class="btn" data-type="toast-position">Bottom and Right</button>
+      </div>
+
+      <h3>Select the Toast Timeout</h3>
+      <div class="btn-wrapper">
+        <button class="btn btn-selected" data-type="toast-timeout" >Fixed</button>
+        <button class="btn" data-type="toast-timeout" >2 secs</button>
+        <button class="btn" data-type="toast-timeout" >5 secs</button>
+        <button class="btn" data-type="toast-timeout" >10 secs</button>
+      </div>
+
+      <h3>Type a message</h3>
+      <div class="btn-wrapper">
+        <input type="text" id="toastMessage">
+      </div>
+
+      <label>
+        <input type="checkbox" id="showCloseButtonCheckbox">
+        <h3>Show close button?</h3>
+    </label>
+
+    <button class="btn" id="showToast">Show Toast</button>
+    </div>
+
+    <script src="/27_Toast_Notifications/script.js"></script>
+  </body>
+</html>
