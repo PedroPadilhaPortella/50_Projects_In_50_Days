@@ -32,7 +32,7 @@ const projects = [
   "29_Double_Heart_Click",
   "30_Auto_Text_Effect",
   "31_Password_Generator",
-  "32_Good_Cheap_Fast_Checkboxes",
+  "32_Good_Cheap_Fast",
   "33_Notes_App",
   "34_Animated_Countdown",
   "35_Image_Carousel",
@@ -47,6 +47,7 @@ const projects = [
   "45_Netflix_Navigation",
   "46_Quiz_App",
   "47_Testimonial_Box",
+  "48_Random_Image_Feed",
 ];
 
 const projectsContainer = document.querySelector('.container');
