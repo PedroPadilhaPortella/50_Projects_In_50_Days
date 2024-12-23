@@ -4,7 +4,6 @@ const projects = [
   "03_Rotating_Navigation",
   "04_Hidden_Search_Input",
   "05_Blurry_Loading",
-  "05_Blurry_Loading",
   "06_Scroll_Animation",
   "07_Split_Landing_Page",
   "08_Form_Input_Wave",
@@ -49,6 +48,7 @@ const projects = [
   "47_Testimonial_Box",
   "48_Random_Image_Feed",
   "49_Todo_List",
+  "50_Insect_Catch_Game",
 ];
 
 const projectsContainer = document.querySelector('.container');
