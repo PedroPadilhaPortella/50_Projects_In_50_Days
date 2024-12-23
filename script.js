@@ -49,6 +49,7 @@ const projects = [
   "48_Random_Image_Feed",
   "49_Todo_List",
   "50_Insect_Catch_Game",
+  "51_Simple_Timer",
 ];
 
 const projectsContainer = document.querySelector('.container');
